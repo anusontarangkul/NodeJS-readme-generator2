@@ -1,8 +1,7 @@
 const inquirer = require('inquirer');
 const generateREADME = require('./src/readme-template');
+const writeREADME = require('./utils/generate-readme');
 
-
-// questions for user
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -60,6 +59,7 @@ promptUser()
     })
     .then(templateData => {
         console.log(templateData)
+        writeREADME(templateData)
     })
     .catch(err => {
         console.log(err)
