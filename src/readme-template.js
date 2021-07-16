@@ -27,6 +27,15 @@ ${generateLicense(license)}
 
 ${description}
 
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Test](#test)
+* [License](#license)
+* [Creator](#github)
+
 ## Installation
 
 ${installation}
