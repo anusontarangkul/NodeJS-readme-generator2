@@ -38,7 +38,7 @@ ${description}
 
 ## Installation
 
-${installation}
+\`\`\`${installation}\`\`\`
 
 ## Usage
 
@@ -50,7 +50,7 @@ ${contribution}
 
 ## Test
 
-${test}
+\`\`\`${test}\`\`\`
 
 ## License
 
@@ -58,7 +58,7 @@ ${license}
 
 ## GitHub
 
-${github}
+https://github.com/${github}
 
 ## Email
 
