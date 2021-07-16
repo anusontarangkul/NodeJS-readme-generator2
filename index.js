@@ -35,9 +35,10 @@ const promptUser = () => {
             message: "Please provide tests:"
         },
         {
-            type: "input",
+            type: "list",
             name: "license",
-            message: "Please provide license:"
+            message: "Please provide license:",
+            choices: ["Apache", "BSD 3-Clause License", "GNU GPL v3", "MIT", "Mozilla"]
         },
         {
             type: "input",
