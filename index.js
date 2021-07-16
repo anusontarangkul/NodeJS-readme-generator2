@@ -49,7 +49,6 @@ const promptUser = () => {
             type: "input",
             name: "email",
             message: "Please provide your email:"
-
         }
     ])
 }
